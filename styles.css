@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.user-container {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.user-container p {
+    margin: 10px 0;
+}
